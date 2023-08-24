@@ -1,0 +1,141 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1020,
+      "max": [
+        -6.981772422790527,
+        0.5706002116203308,
+        16.799964904785156
+      ],
+      "min": [
+        -21.066699981689453,
+        -13.822979927062988,
+        -16.634714126586914
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1020,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 5616,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 32640,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 22464,
+      "byteOffset": 32640,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 55104,
+      "uri": "tooth4.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "M_01___Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8823530077934265,
+          0.8816969990730286,
+          0.8128340244293213,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Box005",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "matrix": [
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0254,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "mesh": 0,
+      "name": "Box005"
+    },
+    {
+      "children": [
+        0
+      ],
+      "matrix": [
+        -0.9997574687004089,
+        -0.017497990280389786,
+        -0.013371369801461697,
+        0.0,
+        0.013136819005012512,
+        0.01345149427652359,
+        -0.999823272228241,
+        0.0,
+        0.017674762755632394,
+        -0.999756395816803,
+        -0.013218364678323269,
+        0.0,
+        1.5131781799316406,
+        0.4246173473358154,
+        0.29735294971466064,
+        1.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        1
+      ]
+    }
+  ]
+}
